@@ -15,18 +15,21 @@ export default function Home() {
               height={100}
             />
             <div className="w-full flex flex-col items-center justify-center gap-2">
-              <p className="text-4xl font-bold">Kylie Aspinall</p>
-              <p className="text-xs md:text-lg">
+              <p className="text-slate-900 text-4xl font-bold">
+                Kylie Aspinall
+              </p>
+              <p className="text-slate-700 text-xs md:text-lg">
                 Group Managing Director{" "}
-                <span className="text-yellow-500">|</span> Women In Tech{" "}
-                <span className="text-yellow-500">|</span> Entrepreneur
+                <span className="text-yellow-500 font-bold">|</span> Women In
+                Tech <span className="text-yellow-500 font-bold">|</span>{" "}
+                Entrepreneur
               </p>
               <p className="text-xl mt-8 text-indigo-700">Coming Soon</p>
             </div>
           </div>
 
           <a
-            className="flex items-center gap-2 hover:underline hover:underline-offset-4 group justify-self-end-safe pb-8"
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4 group justify-self-end-safe pb-8 text-slate-700 "
             href="https://www.linkedin.com/in/kylieclark/"
             target="_blank"
             rel="noopener noreferrer"
