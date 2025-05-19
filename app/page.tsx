@@ -17,7 +17,9 @@ export default function Home() {
             <div className="w-full flex flex-col items-center justify-center gap-2">
               <p className="text-4xl font-bold">Kylie Aspinall</p>
               <p className="text-xs md:text-lg">
-                Group Managing Director | Women In Tech | Entrepreneur
+                Group Managing Director{" "}
+                <span className="text-yellow-500">|</span> Women In Tech{" "}
+                <span className="text-yellow-500">|</span> Entrepreneur
               </p>
               <p className="text-xl mt-8 text-indigo-700">Coming Soon</p>
             </div>
