@@ -14,15 +14,21 @@ export default function Home() {
               width={100}
               height={100}
             />
-            <div className="w-full flex flex-col items-center justify-center gap-2">
+            <div className="w-full flex flex-col items-center justify-center gap-2 px-2">
               <p className="text-slate-900 text-4xl font-bold">
                 Kylie Aspinall
               </p>
-              <p className="text-slate-700 text-xs md:text-lg">
-                Group Managing Director{" "}
-                <span className="text-yellow-500 font-bold">|</span> Women In
-                Tech <span className="text-yellow-500 font-bold">|</span>{" "}
-                Entrepreneur
+              <p className="text-slate-600 text-xs lg:text-md">
+                Executive Leader{" "}
+                <span className="text-yellow-500 font-bold">|</span> Networker{" "}
+                <span className="text-yellow-500 font-bold">|</span> Talent
+                Connector
+              </p>
+              <p className="text-xs lg:text-xl mt-8 text-slate-900 text-center">
+                When the right person joins the right team, magic happens.
+              </p>
+              <p className="text-xs lg:text-xl text-slate-900 text-center">
+                I build that kind of magic at scale.
               </p>
               <p className="text-xl mt-8 text-indigo-700">Coming Soon</p>
             </div>
